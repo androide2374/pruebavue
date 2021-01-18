@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h1 class="title">
-        prueba
+        {{message}}
       </h1>
       <div class="links">
         <a
@@ -28,7 +28,13 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data: function () {
+    return {
+      message:'asdasdas'
+    }
+  }
+}
 </script>
 
 <style>
